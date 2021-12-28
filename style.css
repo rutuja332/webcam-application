@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Crete+Round:ital@1&display=swap');
+body {
+  background-color: rgb(235, 186, 195);
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 98%;
+}
+#mainbox{
+  width: 100%;
+  height: 85%;
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+}
+
+.headi{
+  color: rgb(15, 1, 90);
+  font-family: 'Crete Round', serif;
+}
+
+div
+#cam,
+#cam,
+#cam2,
+#cam3,
+#cam4, #camera{
+     /* display: grid;
+     grid-template-columns: repeat(autofit , minmaxI(250px ,1fr));
+     grid-gap: 20px; */
+
+     /* flex-wrap: wrap;
+     display: flex; */
+
+     border: 5px solid rgb(4, 4, 104);
+     padding: 1px;
+     width: 350px;
+     height: 300px;
+    position: relative;
+     /* left: 12pxpx; */
+     margin-left: 21px;
+     
+     background-size: cover;
+     /* flex-direction: column;
+
+  
+} 
